@@ -1,0 +1,66 @@
+.Auth{
+    width: 100vw;
+    min-height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.authContainer{
+    width: 450px;
+    min-height: 200px;
+    position: relative;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.466);
+    overflow: hidden;
+}
+.header{
+    display: flex;
+}
+.header .h1{
+    flex-basis: 50%;
+    background-color: rgb(218, 214, 214);
+    font-size: 22px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    padding: 12px;
+}
+.header .glow{
+    background-color: #fff;
+}
+.signIn,.signUp{
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.userName{
+    display: flex;
+    justify-content: space-between;
+}
+.AuthInput{
+    width: 100%;
+    padding: 0.5rem;
+}
+.AuthInput label{
+    font-size: 18px;
+    color: rgb(44, 43, 43);
+    font-weight: 500;
+}
+.AuthInput input{
+    height: 35px;
+    padding: 0 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+@media(max-width:500px)
+{
+    .authContainer{
+        width: 95%;
+    }
+}

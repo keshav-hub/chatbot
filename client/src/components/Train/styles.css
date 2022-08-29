@@ -1,0 +1,48 @@
+.train{
+    width: 100vw;
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.trainContainer .title{
+    padding: 0.5rem 1rem;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.trainContainer{
+    width: 400px;
+    min-height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    margin: auto;
+    position: relative;
+}
+.hyperParameters{
+    padding:0 1rem;
+}
+.hyperParameters .input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.hyperParameters .input input{
+    height: 30px;
+    padding: 0 0.5rem;
+    font-size: 15px;
+}
+
+@media(max-width:500px)
+{
+    .hyperParameters{
+        width: 92%;
+    }
+    .trainContainer{
+        width: 95%;
+    }
+}

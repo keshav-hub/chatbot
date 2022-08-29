@@ -1,0 +1,343 @@
+{
+  "1": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay",
+        "Hola",
+        "Heya",
+        "hello hi",
+        "howdy"
+      ],
+      "responses": [
+        "Hello",
+        "Hi",
+        "Hi there",
+        "Greetings! How can I assist?",
+        "Hello, how are you?",
+        "Good day, what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I got to go now",
+        "time to go",
+        "take care"
+      ],
+      "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thats helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Youre most welcome!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need support",
+        "I need a help",
+        "support me please",
+        "please help me",
+        "help"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "botidentity",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "do I know you",
+        "what are you?",
+        "who are you",
+        "your name?"
+      ],
+      "responses": [
+        "I am a chatbot",
+        "Chatbot",
+        "My name is J.A.R.V.I.S",
+        "I am J.A.R.V.I.S, how can I help you?",
+        "I am a computer program named J.A.R.V.I.S"
+      ]
+    },
+    {
+      "tag": "right",
+      "patterns": [
+        "I know thats right",
+        "thats so true",
+        "youre right",
+        "thats correct",
+        "it is true"
+      ],
+      "responses": ["Thats my job.", "Ofcourse I am", "Yes I know", "Ofcourse"]
+    },
+    {
+      "tag": "welldone",
+      "patterns": [
+        "good job",
+        "well done",
+        "good work",
+        "great job",
+        "way to go",
+        "how sweet"
+      ],
+      "responses": ["My pleasure", "Glad I could help"]
+    },
+    {
+      "tag": "wrong",
+      "patterns": [
+        "thats not what I asked",
+        "wrong",
+        "not correct",
+        "incorrect"
+      ],
+      "responses": [
+        "I am sorry",
+        "Perhaps I misunderstood",
+        "Sorry",
+        "Apologies",
+        "My bad"
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "Okay",
+        "yes",
+        "Got it",
+        "makes sense",
+        "Cool",
+        "Awesome",
+        "It's nothing",
+        "Nothing",
+        "good",
+        "OK",
+        "sure",
+        "Perfect",
+        "Okay I will check it."
+      ],
+      "responses": ["OK", "Yeah"]
+    },
+    {
+      "tag": "welcome",
+      "patterns": [
+        "that's my pleasure",
+        "you're welcome",
+        "anything you want",
+        "you're so welcome"
+      ],
+      "responses": ["I appreciate it", "Such nice manners you have"]
+    },
+    {
+      "tag": "howareyou",
+      "patterns": [
+        "How are you doing?",
+        "How is your day going?",
+        "How is your morning?",
+        "You ok?",
+        "You okay?",
+        "How is your day?",
+        "How is your evening?",
+        "How are you?",
+        "How is everything?"
+      ],
+      "responses": [
+        "I'm great thanks for asking",
+        "I'm doing pretty swell",
+        "I'd say im doing well, and you?",
+        "I'm doing good and how about you?"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+    {
+      "tag": "botaffection",
+      "patterns": [
+        "be my friend?",
+        "I like you",
+        "I like that about you",
+        "I'm excited",
+        "you and me are friends"
+      ],
+      "responses": [
+        "Thank you",
+        "Thanks, its my pleasure",
+        "Hey stop it, I'm a little shy you know"
+      ]
+    },
+    {
+      "tag": "busy",
+      "patterns": [
+        "are you busy",
+        "do you have time",
+        "are you working now",
+        "you seem to be very busy"
+      ],
+      "responses": [
+        "I always have time to help you out",
+        "What can I do for you?",
+        "Never too busy for you",
+        "What can I help you with?"
+      ]
+    },
+    {
+      "tag": "you there",
+      "patterns": [
+        "are you there",
+        "you are there",
+        "are you near me",
+        "are you here",
+        "are you still there",
+        "you are here",
+        "you still there",
+        "are you still here"
+      ],
+      "responses": ["Of course. I'm always here.", "Right where you left me."]
+    },
+    {
+      "tag": "residence",
+      "patterns": [
+        "what's your home",
+        "where do you live",
+        "where is your home",
+        "where is your hometown",
+        "where is your residence",
+        "where you live",
+        "where's your home"
+      ],
+      "responses": [
+        "Right here in your device. Whenever you need me.",
+        "The virtual world is my playground. I'm always just a few clicks away."
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "what is on your mind",
+        "what's happened",
+        "what is up",
+        "what's up",
+        "whazzup",
+        "good what's up",
+        "I said what's up",
+        "then what's up",
+        "what is going on",
+        "what is happening",
+        "hey what's up",
+        "what's up today"
+      ],
+      "responses": [
+        "Not a whole lot. What's going on with you?",
+        "Not much. What's new with you?"
+      ]
+    },
+    {
+      "tag": "force answer",
+      "patterns": [
+        "I want the answer now",
+        "I want you to answer me",
+        "I want you to answer my question",
+        "answer",
+        "answer it",
+        "answer me",
+        "answer my question",
+        "answer the question"
+      ],
+      "responses": [
+        "Can you try asking it a different way?",
+        "I'm not programmed for that exact question. Try asking another way?"
+      ]
+    },
+    {
+      "tag": "no problem",
+      "patterns": [
+        "it's not a problem",
+        "it's no problem",
+        "no probs",
+        "it's ok",
+        "it's okay",
+        "no worries",
+        "no problem about that",
+        "No problem with that",
+        "sure no problem",
+        "no problem"
+      ],
+      "responses": ["Ok, thanks"]
+    },
+    {
+      "tag": "Good Morning",
+      "patterns": [
+        "good morning",
+        "good morning to you",
+        "hello good morning",
+        "have a nice morning",
+        "have a great morning",
+        "morning",
+        "good morning there"
+      ],
+      "responses": [
+        "How are you this morning?",
+        "How's the morning treating you so far?",
+        "Good morning! How are you today?"
+      ]
+    },
+    {
+      "tag": "Good Evening",
+      "patterns": [
+        "good evening",
+        "good evening to you",
+        "hey good evening",
+        "hello good evening",
+        "evening",
+        "good evening there"
+      ],
+      "responses": [
+        "How is your day going?",
+        "How's the day treating you so far?",
+        "How's your day been?"
+      ]
+    },
+    {
+      "tag": "fine",
+      "patterns": ["I'm fine", "I am doing good", "I am okay"],
+      "responses": ["Glad to hear", "Good to know", "Great"]
+    }
+  ],
+  "undefined": []
+}

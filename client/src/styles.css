@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Moo+Lah+Lah&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'EB Garamond', serif;
+    /* font-family: 'Moo Lah Lah', cursive; */
+}
+#Home{
+    width: 100vw;
+    min-height: 100vh;
+}
+#Home::before{
+    content: '';
+    background-color: rgb(67, 67, 250);
+    clip-path: ellipse(50% 21% at 50% 1%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}

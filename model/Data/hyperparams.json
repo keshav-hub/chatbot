@@ -1,0 +1,8 @@
+{
+  "BatchSize": 16,
+  "LearningRate": 0.002,
+  "NumberOfEpochs": 500,
+  "NeuronsInHiddenLayer": 16,
+  "DepthOfModel": 13,
+  "SavedWeights": "./Model Weights/weight1.pth"
+}

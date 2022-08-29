@@ -1,0 +1,19 @@
+.message{
+    width: 100%;
+    min-height: 60px;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+.messageContent{
+    display: inline-block;
+    background-color: rgb(132, 132, 245);
+    justify-content: right;
+    color: #fff;
+    padding: 0.5rem;
+}
+.right{
+    border-radius: 10px 10px 0px 10px;
+}
+.left{
+    border-radius: 10px 10px 10px 0px;
+}

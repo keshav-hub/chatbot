@@ -1,0 +1,133 @@
+.content{
+    width: 100vw;
+    min-height: 79.8vh;
+    display: flex;
+    z-index: 99;
+    justify-content: center;
+}
+.left-content{
+    width: 48vw;
+    justify-content: right;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: auto;
+}
+.left-content>h1{
+    font-size: 43px;
+    font-weight: bold;
+    color: rgb(67, 67, 250);
+    margin: 1rem 0;
+}
+.buttons{
+    display: flex;
+}
+.topic{
+    margin: 1rem 0;
+}
+.customContent{
+    display: flex;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.customContent>h3{
+    flex-basis: 58%;
+    font-weight: 500;
+}
+.customContent>h2{
+    flex-basis: 58%;
+}
+.customContent>button{
+    flex-basis: 32%;
+    /* padding: 0.5rem 0; */
+}
+.btn-primary{
+    background-color: rgb(67, 67, 250);
+    padding: 0 1.5rem;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    margin: auto 0;
+}
+.btn-secondary-outline{
+    background-color: #fff;
+    padding: 0 1.5rem;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(67, 67, 250);
+    border: 2px solid rgb(67, 67, 250);
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+}
+.btn-primary-submit{
+    width: 100%;
+    background-color: rgb(67, 67, 250);
+    padding: 0 1.5rem;
+    height: 36px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+.right-content{
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+}
+.right-content>img{
+    margin: auto;
+    width: 35vw;
+    height: 35vw;
+    z-index: 1;
+}
+.checkBox{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem 0rem;
+}
+.checkBox>input{
+    width: 15px;
+    height: 15px;
+    margin: 0.2rem 0.2rem;
+}
+
+@media(max-width:950px)
+{
+    .content{
+        flex-direction: column-reverse;
+    }   
+    .left-content{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .customContent>button{
+        flex-basis: 40%;
+        padding: 0.5rem 0;
+    }
+    .right-content{
+        width: 100vw;
+        min-height: 60vh;
+    }
+    .right-content>img{
+        width: 80vw;
+        height: 50vh;
+    }
+}

@@ -1,0 +1,52 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-height: 3vh;
+    margin: 3rem auto;
+}
+.formItem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+.formItem label{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+select,.formItem input{
+    display: block;
+    width: 32vw;
+    height: 35px;
+    padding: 0 0.5rem;
+}
+.addItem{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(67, 67, 250);
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin: auto;
+}
+
+@media(max-width:660px)
+{
+    .form{
+        width: 90%;
+    }
+    .formItem{
+        flex-direction: column;
+        margin: auto;
+    }
+    select,.formItem input{
+        margin-bottom: 1rem;
+        width: 80vw;
+        padding: 0 0.5rem;
+    }
+}

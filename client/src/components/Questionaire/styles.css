@@ -1,0 +1,7 @@
+.formPage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 91vh;
+    margin: 3rem auto;
+}

@@ -1,0 +1,7 @@
+{
+  "BatchSize": "16",
+  "LearningRate": "0.002",
+  "NumberOfEpochs": "1500",
+  "NeuronsInHiddenLayer": "8",
+  "DepthOfModel": "4"
+}
